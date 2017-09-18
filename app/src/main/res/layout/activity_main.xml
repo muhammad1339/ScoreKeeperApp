@@ -76,6 +76,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
             android:orientation="horizontal">
 
             <TextView
@@ -85,6 +87,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="2"
                 android:gravity="center"
+                android:textSize="55sp"
                 android:text="@string/textDefaultStat" />
 
             <Button
@@ -99,9 +102,11 @@
             <TextView
                 style="@style/textStats"
                 android:layout_width="0dp"
+                android:textSize="22sp"
                 android:layout_height="match_parent"
                 android:layout_weight="2"
                 android:gravity="center"
+
                 android:text="@string/textGoals" />
 
             <Button
@@ -120,6 +125,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="2"
                 android:gravity="center"
+                android:textSize="55sp"
                 android:text="@string/textDefaultStat" />
 
         </LinearLayout>
