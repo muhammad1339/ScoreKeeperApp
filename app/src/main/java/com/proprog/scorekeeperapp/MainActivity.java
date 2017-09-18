@@ -1,6 +1,5 @@
 package com.proprog.scorekeeperapp;
 
-import android.os.StrictMode;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -8,26 +7,26 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    int blues_goal = 0;
-    int reds_goal = 0;
-    int blues_shot = 0;
-    int reds_shot = 0;
-    int blues_foul = 0;
-    int reds_foul = 0;
+    int bluesGoal = 0;
+    int redsGoal = 0;
+    int bluesShot = 0;
+    int redsShot = 0;
+    int bluesFoul = 0;
+    int redsFoul = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        displayGoalsBlues(blues_goal);
-        displayGoalsReds(reds_goal);
+        displayGoalsBlues(bluesGoal);
+        displayGoalsReds(redsGoal);
 
-        displayShotsBlues(blues_shot);
-        displayShotsReds(reds_shot);
+        displayShotsBlues(bluesShot);
+        displayShotsReds(redsShot);
 
-        displayFoulsBlues(blues_foul);
-        displayFoulsReds(reds_foul);
+        displayFoulsBlues(bluesFoul);
+        displayFoulsReds(redsFoul);
 
     }
 
@@ -37,8 +36,8 @@ public class MainActivity extends AppCompatActivity {
      * @param view
      */
     public void goalForBlues(View view) {
-        blues_goal += 1;
-        displayGoalsBlues(blues_goal);
+        bluesGoal += 1;
+        displayGoalsBlues(bluesGoal);
     }
 
     /**
@@ -47,8 +46,8 @@ public class MainActivity extends AppCompatActivity {
      * @param view
      */
     public void goalForReds(View view) {
-        reds_goal += 1;
-        displayGoalsReds(reds_goal);
+        redsGoal += 1;
+        displayGoalsReds(redsGoal);
     }
 
     /**
@@ -57,8 +56,8 @@ public class MainActivity extends AppCompatActivity {
      * @param view
      */
     public void shotForBlues(View view) {
-        blues_shot += 1;
-        displayShotsBlues(blues_shot);
+        bluesShot += 1;
+        displayShotsBlues(bluesShot);
     }
 
     /**
@@ -67,8 +66,8 @@ public class MainActivity extends AppCompatActivity {
      * @param view
      */
     public void shotForReds(View view) {
-        reds_shot += 1;
-        displayShotsReds(reds_shot);
+        redsShot += 1;
+        displayShotsReds(redsShot);
     }
 
     /**
@@ -77,8 +76,8 @@ public class MainActivity extends AppCompatActivity {
      * @param view
      */
     public void foulForBlues(View view) {
-        blues_foul += 1;
-        displayFoulsBlues(blues_foul);
+        bluesFoul += 1;
+        displayFoulsBlues(bluesFoul);
     }
 
     /**
@@ -87,8 +86,8 @@ public class MainActivity extends AppCompatActivity {
      * @param view
      */
     public void foulForReds(View view) {
-        reds_foul += 1;
-        displayFoulsReds(reds_foul);
+        redsFoul += 1;
+        displayFoulsReds(redsFoul);
     }
 
     //manipulate text
@@ -125,23 +124,23 @@ public class MainActivity extends AppCompatActivity {
 
     public void resetStats(View view) {
 
-        blues_goal = 0;
-        displayGoalsBlues(blues_goal);
+        bluesGoal = 0;
+        displayGoalsBlues(bluesGoal);
 
-        reds_goal = 0;
-        displayGoalsReds(reds_goal);
+        redsGoal = 0;
+        displayGoalsReds(redsGoal);
 
-        blues_shot = 0;
-        displayShotsBlues(blues_shot);
+        bluesShot = 0;
+        displayShotsBlues(bluesShot);
 
-        reds_shot = 0;
-        displayShotsReds(reds_shot);
+        redsShot = 0;
+        displayShotsReds(redsShot);
 
-        blues_foul = 0;
-        displayFoulsBlues(blues_foul);
+        bluesFoul = 0;
+        displayFoulsBlues(bluesFoul);
 
-        reds_foul = 0;
-        displayFoulsReds(reds_foul);
+        redsFoul = 0;
+        displayFoulsReds(redsFoul);
     }
 
 }
