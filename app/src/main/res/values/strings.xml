@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Score Keeper App</string>
+
+    <string name="textReset">Reset</string>
+    <string name="textDefaultStat">1</string>
+    <string name="textPlusButton">+</string>
+
+    <string name="textBlues">Blues</string>
+    <string name="textReds">Reds</string>
+
+    <string name="textGoals">Goals</string>
+    <string name="textFouls">Fouls</string>
+    <string name="textShots">Shots</string>
+
+</resources>
