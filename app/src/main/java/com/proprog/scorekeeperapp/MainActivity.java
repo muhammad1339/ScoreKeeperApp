@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity {
         displayFoulsReds(redsFoul);
     }
 
-    //manipulate text
+    //manipulate text for two teams
     public void displayGoalsBlues(int goals) {
         TextView goalTextView = (TextView) findViewById(R.id.blues_goalTextView);
         goalTextView.setText(String.valueOf(goals));
@@ -110,6 +110,7 @@ public class MainActivity extends AppCompatActivity {
         foulTextView.setText(String.valueOf(fouls));
     }
 
+    // reset values for two teams
     public void resetStats(View view) {
 
         bluesGoal = 0;
