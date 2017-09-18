@@ -37,7 +37,6 @@
                     android:text="@string/textBlues"
                     android:textColor="@color/colorTeamBlues" />
 
-
             </LinearLayout>
 
             <View
@@ -66,9 +65,7 @@
                     android:text="@string/textReds"
                     android:textColor="@color/colorTeamReds" />
 
-
             </LinearLayout>
-
 
         </LinearLayout>
 
@@ -106,7 +103,6 @@
                 android:layout_height="match_parent"
                 android:layout_weight="2"
                 android:gravity="center"
-
                 android:text="@string/textGoals" />
 
             <Button
