@@ -32,8 +32,6 @@ public class MainActivity extends AppCompatActivity {
 
     /**
      * count goals for team Blues
-     *
-     * @param view
      */
     public void goalForBlues(View view) {
         bluesGoal += 1;
@@ -42,8 +40,6 @@ public class MainActivity extends AppCompatActivity {
 
     /**
      * count goals for team Reds
-     *
-     * @param view
      */
     public void goalForReds(View view) {
         redsGoal += 1;
@@ -52,8 +48,6 @@ public class MainActivity extends AppCompatActivity {
 
     /**
      * count shots for team Blues
-     *
-     * @param view
      */
     public void shotForBlues(View view) {
         bluesShot += 1;
@@ -62,8 +56,6 @@ public class MainActivity extends AppCompatActivity {
 
     /**
      * count shots for team Reds
-     *
-     * @param view
      */
     public void shotForReds(View view) {
         redsShot += 1;
@@ -72,8 +64,6 @@ public class MainActivity extends AppCompatActivity {
 
     /**
      * count fouls for team Blues
-     *
-     * @param view
      */
     public void foulForBlues(View view) {
         bluesFoul += 1;
@@ -82,8 +72,6 @@ public class MainActivity extends AppCompatActivity {
 
     /**
      * count fouls for team Reds
-     *
-     * @param view
      */
     public void foulForReds(View view) {
         redsFoul += 1;
